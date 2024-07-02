@@ -9,6 +9,7 @@ function typeChecker(a, b) {
         return "NOT MATCHED";
     }
 }
+
 var a1 = "Jack";
 var b1 = "Rose";
 var a2 = 555;
