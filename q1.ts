@@ -1,8 +1,18 @@
 function typeChecker(a, b) {
-  /* Your code here */
+  if(typeof a === "string" && typeof b === "string")
+    {
+      return "I LOVE YOU"
+    }
+  else if(typeof a === "number" && typeof b === "number")
+    {return a+b;}
+  else {
+    return  "NOT MATCHED"
+  }
+
+ 
 }
 
-//Test cases
+
 const a1 = "Jack";
 const b1 = "Rose";
 const a2 = 555;
