@@ -1,9 +1,9 @@
 function arrayStringify(a) {
-  let b="";
-  for(let i=0;i<a.lenth;i++){
-    b+=a[i];
+  let w='';
+  for(let i=0 ;i<a.length;i++){
+    w +=a[i];
   }
-  return b;
+  return w;
 
 }
 
